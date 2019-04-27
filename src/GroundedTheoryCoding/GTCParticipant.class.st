@@ -10,6 +10,32 @@ Class {
 	#category : #'GroundedTheoryCoding-Core'
 }
 
+{ #category : #accessing }
+GTCParticipant >> addConcept: aConcept [
+	concepts add: aConcept
+]
+
+{ #category : #'as yet unclassified' }
+GTCParticipant >> addConceptForWord: aWordElement participant: participant concept: newConcept [
+	| aWord |
+	aWord := aWordElement text.
+	newConcept addParticipantIfNotPresent: participant.
+	newConcept addWord: aWord.
+	aWordElement color: newConcept color 
+]
+
+{ #category : #'as yet unclassified' }
+GTCParticipant >> addNewConceptForWord: aWordElement participant: participant [
+	| aName newConcept aWord |
+	aWord := aWordElement text.
+	aName := UIManager default request: 'Enter a concept name'.
+	aName ifNil: [ ^ self ].
+	newConcept := GTCConcept new.
+	newConcept conceptName: aName.
+	self model addConcept: newConcept.
+	self addConceptForWord: aWordElement participant: participant concept: newConcept
+]
+
 { #category : #adding }
 GTCParticipant >> addText: textAsString [
 
@@ -33,12 +59,19 @@ GTCParticipant >> defineMenuOn: aWordElement [
 		@
 			(RSMenuActivable new
 				menuDo: [ :menu | 
-					self model concepts do: [ :c |
+					
+					menu
+							add: 'ADD NEW CONCEPT'
+							target: self
+							selector: #addNewConceptForWord:participant:
+							argumentList: (Array with: aWordElement with: self).
+							
+					(self model concepts sorted: [ :c1 :c2 | c1 conceptName < c2 conceptName ]) do: [ :c |
 						menu
 							add: c conceptName
 							target: self
-							selector: #addConceptForWord: 
-							argument: (Array with: aWordElement text with: self)
+							selector: #addConceptForWord:participant:concept:
+							argumentList: (Array with: aWordElement with: self with: c)
 					]
 					 ])
 ]
@@ -96,7 +129,7 @@ GTCParticipant >> visualizeText [
 	
 	wordBuilder := RSShapeBuilder label.
 	textElements := RSShapeBuilder composite
-							color: (Color blue alpha: 0.1);
+							color: (Color r: 0.95 g: 0.95 b: 1.0);
 							shapes: [ :aText |
 								| g |
 								g := wordBuilder elementsOn: aText substrings.
@@ -105,7 +138,7 @@ GTCParticipant >> visualizeText [
 								RSGridLayout new lineItemsCount: 20; on: g.
 								g 
 							]; elementsOn: texts.
-	RSVerticalLineLayout on: textElements.
+	RSVerticalLineLayout new gapSize: 20; on: textElements.
 	v addAll: textElements.
 	v @ RSControlsView.
 	v open

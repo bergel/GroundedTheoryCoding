@@ -4,6 +4,364 @@ Class {
 	#category : #'GroundedTheoryCoding-RoleViz'
 }
 
+{ #category : #tools }
+GTCRoleVizData >> exportOfAnnotatedTranscript [
+^ 'new concept:Clarity
+concept to participant:p2_manuel
+concept to word:clear
+concept to word:clearly
+new concept:Search
+concept to participant:p2_manuel
+concept to participant:p7_muke
+concept to participant:p16_sina
+concept to word:search
+concept to word:search
+concept to word:search
+new concept:Accuracy
+concept to participant:p2_manuel
+concept to participant:p3_johan
+concept to participant:p7_muke
+concept to participant:p9_dimitrios
+concept to participant:p11_berima
+concept to word:relevant
+concept to word:don''t
+concept to word:much
+concept to word:exact
+concept to word:right
+new concept:Circle
+concept to participant:p2_manuel
+concept to word:circle
+new concept:Dependency
+concept to participant:p2_manuel
+concept to participant:p4_abdullah
+concept to participant:p1_sinan
+concept to participant:p5_gustav
+concept to participant:p8_mazen
+concept to participant:p15_kosara
+concept to word:lines
+concept to word:connection
+concept to word:connection
+concept to word:association
+concept to word:dependency
+concept to word:dependency
+concept to word:Dependencies
+concept to word:dependencies
+new concept:Navigation
+concept to participant:p2_manuel
+concept to participant:p4_abdullah
+concept to participant:p5_gustav
+concept to word:navigate
+concept to word:navigation
+concept to word:direct/navigate
+new concept:Bad source code structure
+concept to participant:p2_manuel
+concept to participant:p3_johan
+concept to participant:p12_yazen
+concept to word:source
+concept to word:formatting,
+concept to word:formatted.
+concept to word:source
+new concept:Bad search in source code
+concept to participant:p2_manuel
+concept to word:search
+new concept:[Future] improve the UI
+concept to participant:p2_manuel
+concept to participant:p4_abdullah
+concept to participant:p1_sinan
+concept to word:improving
+concept to word:software:
+concept to word:friendly
+new concept:[Future] user friendly
+concept to participant:p2_manuel
+concept to word:user-friendly.
+new concept:Helpful
+concept to participant:p3_johan
+concept to participant:p4_abdullah
+concept to participant:p1_sinan
+concept to participant:p5_gustav
+concept to participant:p12_yazen
+concept to participant:p7_muke
+concept to participant:p8_mazen
+concept to participant:p9_dimitrios
+concept to participant:p11_berima
+concept to participant:p10_joel
+concept to participant:p15_kosara
+concept to participant:p16_sina
+concept to word:Yes.
+concept to word:helped.
+concept to word:source
+concept to word:Yes.
+concept to word:help
+concept to word:Yes,
+concept to word:Yes.
+concept to word:Yes,
+concept to word:Yes,
+concept to word:Yes,
+concept to word:helps
+concept to word:Yes.
+concept to word:Yes.
+concept to word:Yes.
+new concept:Not useful - role
+concept to participant:p3_johan
+concept to word:(role,
+new concept:Not useful - dependency
+concept to participant:p3_johan
+concept to word:association)
+new concept:Bad task - does not need functionalities
+concept to participant:p3_johan
+concept to word:task
+new concept:Coloring
+concept to participant:p3_johan
+concept to participant:p9_dimitrios
+concept to word:color.
+concept to word:color
+new concept:Problem with Legend
+concept to participant:p3_johan
+concept to participant:p9_dimitrios
+concept to word:(legend)
+concept to word:question
+new concept:[Future] improve the Inspector
+concept to participant:p3_johan
+concept to participant:p6_max
+concept to participant:p11_berima
+concept to participant:p16_sina
+concept to word:inspect
+concept to word:inspect
+concept to word:Inspecting,
+concept to word:inspect,
+new concept:Easy to use
+concept to participant:p4_abdullah
+concept to participant:p5_gustav
+concept to participant:p7_muke
+concept to word:easier
+concept to word:easier
+concept to word:easily
+new concept:Comprehension
+concept to participant:p4_abdullah
+concept to word:comprehend
+new concept:Focussing
+concept to participant:p4_abdullah
+concept to word:focus
+new concept:Package interaction View is the most useful
+concept to participant:p4_abdullah
+concept to participant:p13_magnus
+concept to participant:p9_dimitrios
+concept to participant:p14_daniel
+concept to participant:p10_joel
+concept to participant:p16_sina
+concept to word:Package
+concept to word:Package
+concept to word:package
+concept to word:Interaction
+concept to word:Interaction
+concept to word:PackageInteraction.
+new concept:Source code visible
+concept to participant:p4_abdullah
+concept to word:source
+new concept:Searching
+concept to participant:p4_abdullah
+concept to participant:p14_daniel
+concept to word:search
+concept to word:search
+new concept:Softagram does not have source code
+concept to participant:p4_abdullah
+concept to word:(Softagram)
+new concept:Missing dependencies between methods
+concept to participant:p4_abdullah
+concept to participant:p1_sinan
+concept to participant:p6_max
+concept to participant:p7_muke
+concept to participant:p9_dimitrios
+concept to participant:p14_daniel
+concept to participant:p10_joel
+concept to word:method
+concept to word:method
+concept to word:Program
+concept to word:Method-level
+concept to word:method
+concept to word:method
+concept to word:method
+new concept:Visual Studio
+concept to participant:p4_abdullah
+concept to word:VS).
+new concept:[Future] add animation - changing size of selected elements
+concept to participant:p4_abdullah
+concept to word:Animation
+new concept:Top-down approach
+concept to participant:p1_sinan
+concept to word:top-down
+new concept:Identify starting point
+concept to participant:p1_sinan
+concept to word:identify
+new concept:Coordinator helpful to identify starting point
+concept to participant:p1_sinan
+concept to word:Coordinator
+new concept:Role
+concept to participant:p1_sinan
+concept to participant:p6_max
+concept to participant:p8_mazen
+concept to participant:p11_berima
+concept to participant:p15_kosara
+concept to word:that
+concept to word:role
+concept to word:roles;
+concept to word:Interactions,
+concept to word:roles
+new concept:Role Interaction is the most helpful
+concept to participant:p1_sinan
+concept to participant:p6_max
+concept to participant:p12_yazen
+concept to participant:p8_mazen
+concept to participant:p15_kosara
+concept to word:Role
+concept to word:Interaction
+concept to word:Interaction
+concept to word:Interaction
+concept to word:Interaction
+new concept:Video demo
+concept to participant:p1_sinan
+concept to word:video).
+new concept:Used only the role interaction
+concept to participant:p1_sinan
+concept to word:only
+new concept:Starting point
+concept to participant:p1_sinan
+concept to word:starting
+new concept:Browsing back and forth between code and visualization
+concept to participant:p1_sinan
+concept to participant:p12_yazen
+concept to participant:p14_daniel
+concept to participant:p10_joel
+concept to word:Browsing:
+concept to word:back
+concept to word:elements.
+concept to word:(reverse
+concept to word:(relocate
+new concept:Search not easy
+concept to participant:p5_gustav
+concept to word:hard
+new concept:Source code helpful
+concept to participant:p5_gustav
+concept to participant:p8_mazen
+concept to participant:p10_joel
+concept to word:source
+concept to word:source
+concept to word:Source
+concept to word:code
+new concept:Relevance
+concept to participant:p5_gustav
+concept to word:relevant
+new concept:Inspecting classes helpful
+concept to participant:p5_gustav
+concept to word:class
+new concept:[Future] improve search from textual difference
+concept to participant:p5_gustav
+concept to word:search
+new concept:[Future] need search for role
+concept to participant:p6_max
+concept to word:search
+new concept:Need syntax highlighting
+concept to participant:p6_max
+concept to participant:p14_daniel
+concept to participant:p11_berima
+concept to participant:p10_joel
+concept to participant:p15_kosara
+concept to word:syntax
+concept to word:highlighting,
+concept to word:highlighting.
+concept to word:Highlighter.
+concept to word:highlighting;
+new concept:Slow
+concept to participant:p6_max
+concept to word:responsiveness
+new concept:RoleViz gives a good overall view
+concept to participant:p12_yazen
+concept to word:overall
+new concept:[Future] Improve the search
+concept to participant:p12_yazen
+concept to word:function;
+new concept:Inspector
+concept to participant:p7_muke
+concept to participant:p9_dimitrios
+concept to word:Inspect
+concept to word:Inspect
+new concept:Methods should be accessible
+concept to participant:p7_muke
+concept to word:methods
+new concept:Not helpful
+concept to participant:p13_magnus
+concept to word:really,
+new concept:Bad overlapping names when zooming in
+concept to participant:p13_magnus
+concept to word:name
+new concept:Need of package hierarchy
+concept to participant:p13_magnus
+concept to word:package-based
+new concept:No need to read class names
+concept to participant:p8_mazen
+concept to word:(even
+new concept:Need of workflow
+concept to participant:p8_mazen
+concept to word:workflow
+new concept:[Future] Dependency view
+concept to participant:p8_mazen
+concept to word:Dependencies
+new concept:[Future] icons instead of colors (always forgetting the meaning of colors)
+concept to participant:p8_mazen
+concept to word:icons
+new concept:[Future] red color gives wrong impression
+concept to participant:p8_mazen
+concept to word:red
+new concept:[Future] should use neutral colors
+concept to participant:p8_mazen
+concept to word:neutral
+new concept:[Future] Bug in the visualization (associations were around when filtering)
+concept to participant:p8_mazen
+concept to word:associations
+new concept:Filtering
+concept to participant:p9_dimitrios
+concept to word:filtered
+new concept:[Future] filtering should be improved
+concept to participant:p9_dimitrios
+concept to participant:p14_daniel
+concept to word:filtering
+concept to word:filtering
+new concept:Search can be improved
+concept to participant:p14_daniel
+concept to participant:p16_sina
+concept to word:search,
+concept to word:search
+new concept:Integration with IDE
+concept to participant:p14_daniel
+concept to word:IDE
+new concept:Narrowing down
+concept to participant:p11_berima
+concept to word:narrow
+new concept:[Future] Better filtering of source code
+concept to participant:p11_berima
+concept to participant:p16_sina
+concept to word:source
+concept to word:function
+new concept:Missing accesses to variables
+concept to participant:p10_joel
+concept to word:attribute
+new concept:Highlighting
+concept to participant:p10_joel
+concept to word:highlighting
+new concept:[Future] size of source code
+concept to participant:p15_kosara
+concept to word:relevant;
+new concept:[Future] External behavior
+concept to participant:p15_kosara
+concept to word:External
+new concept:Tracing
+concept to participant:p15_kosara
+concept to participant:p16_sina
+concept to word:trace
+concept to word:trace
+'
+]
+
 { #category : #'as yet unclassified' }
 GTCRoleVizData >> fullTranscriptAsCSV [
 
