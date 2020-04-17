@@ -14,7 +14,8 @@ BaselineOfGroundedTheoryCoding >> baseline: spec [
 			spec baseline: 'NeoCSV' with: [ spec repository: 'github://svenvc/NeoCSV/repository' ].
 			
 			spec
-				package: #'Roassal3' with: [ spec requires: #('Athens-SVG' 'Geometry' 'NumericScales') ].
+				package: #'GroundedTheoryCoding' with: [ 
+					spec requires: #('Athens-SVG' 'Geometry' 'NumericScales') ].
 					
 			spec 
 				group: 'Core' with: #('Roassal3' 'NeoCSV' 'GroundedTheoryCoding');
