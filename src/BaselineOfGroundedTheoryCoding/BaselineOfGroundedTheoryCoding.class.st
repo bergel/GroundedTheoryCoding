@@ -15,7 +15,7 @@ BaselineOfGroundedTheoryCoding >> baseline: spec [
 			
 			spec
 				package: #'GroundedTheoryCoding' with: [ 
-					spec requires: #('Athens-SVG' 'Geometry' 'NumericScales') ].
+					spec requires: #('Roassal3' 'NeoCSV') ].
 					
 			spec 
 				group: 'Core' with: #('Roassal3' 'NeoCSV' 'GroundedTheoryCoding');
